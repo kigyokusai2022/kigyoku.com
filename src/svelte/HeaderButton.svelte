@@ -1,10 +1,13 @@
+<!-- ヘッダーのボタン -->
 <script>
     /**
-     * @type function
+     * 引数なしのFunction。クリック時に呼び出される
+     * @type Function
      */
     export let callback
 
     /**
+     * ボタンのラベル
      * @type string
      */
     export let label
