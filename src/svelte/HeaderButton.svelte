@@ -19,6 +19,8 @@
         background: transparent;
         border: transparent;
         cursor: pointer;
+        font-size: 18px;
+        margin: 20px
     }
 </style>
 
