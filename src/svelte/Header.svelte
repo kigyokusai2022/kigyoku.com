@@ -1,17 +1,20 @@
 <!-- ヘッダー -->
 <script>
     import HeaderButton from "./HeaderButton.svelte";
+    let a = "n"
 </script>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
     header {
+        z-index: 10;
         display: flex;
         width: 100%;
-        height: 10vh;
+        height: 100px;
         background-color: #333333;
         align-items: center;
+        position: fixed;
     }
 
     .logo {
@@ -19,7 +22,7 @@
         margin-left: 50px;
         margin-right: auto;
         font-family: Quicksand, sans-serif;
-        font-size: 40px;
+        font-size: 45px;
     }
 
     ul {

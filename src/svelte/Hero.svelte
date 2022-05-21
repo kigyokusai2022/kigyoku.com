@@ -6,7 +6,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
     .hero {
-        height: 90vh;
+        height: 100vh;
         width: 100%;
         background-position: center;
         background-size: cover;
