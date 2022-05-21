@@ -10,6 +10,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "svelte": "^3.48.0",
     "svelte-loader": "^3.1.2",

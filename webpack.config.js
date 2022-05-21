@@ -25,6 +25,13 @@ module.exports = {
                         loader: 'svelte-loader'
                     }
                 ]
+            },
+            {
+                test: /\.(png|jpg|svg)$/,
+                loader: 'file-loader',
+                options: {
+                    name: 'img/[name].[ext]'
+                }
             }
         ]
     }
