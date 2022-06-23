@@ -19,7 +19,6 @@ module.exports = {
         rules: [
             {
                 test: /\.svelte$/,
-                include: path.resolve(__dirname, './src'),
                 use: [
                     {
                         loader: 'svelte-loader'
@@ -32,6 +31,10 @@ module.exports = {
                 options: {
                     name: 'img/[name].[ext]'
                 }
+            },
+            {
+                test: /\.ts$/,
+                loader: 'ts-loader'
             }
         ]
     }
