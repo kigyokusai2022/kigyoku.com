@@ -21,7 +21,7 @@
         background-color: rgba(0, 0, 0, 0.5);
     }
 
-    .text {
+    .text_hero {
         display: inline-block;
         position: absolute;
         top: 50%;
@@ -29,6 +29,19 @@
         color: white;
         font-family: Quicksand, sans-serif;
         font-size: 80px;
+        animation-name: show-text;
+        animation-timing-function: ease;
+        animation-duration: 3s;
+    }
+
+    .text {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        color: white;
+        font-family: Quicksand, sans-serif;
+        font-size: 60px;
         animation-name: show-text;
         animation-timing-function: ease;
         animation-duration: 3s;
@@ -48,8 +61,11 @@
 
 <section class="hero">
     <div class="box">
+        <div class="text_hero">
+            KIGYOKUSAI 2022
+        </div>
         <div class="text">
-            COMING SOON...
+            9/18 9/19 現地オンライン同時開催
         </div>
     </div>
 </section>
