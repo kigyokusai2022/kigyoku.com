@@ -64,8 +64,5 @@
         <div class="text_hero">
             KIGYOKUSAI 2022
         </div>
-        <div class="text">
-            9/18 9/19 現地オンライン同時開催
-        </div>
     </div>
 </section>
