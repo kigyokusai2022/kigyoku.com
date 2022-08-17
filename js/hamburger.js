@@ -5,11 +5,11 @@ $(function () {
     hum.on('click', function() {
         hum.toggleClass('open-hamburger');
         switch(humLabel.text()) {
-            case "MENU":
-                humLabel.text("CLOSE");
+            case "メニュー":
+                humLabel.text("閉じる");
                 break;
-            case "CLOSE":
-                humLabel.text("MENU");
+            case "閉じる":
+                humLabel.text("メニュー");
                 break;
         }
         nav.fadeToggle()

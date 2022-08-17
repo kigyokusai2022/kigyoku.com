@@ -15,12 +15,12 @@
         z-index: 999;
         display: inline-block;
         position: absolute;
-        width: 40px;
-        height: 40px;
+        width: 65px;
+        height: 65px;
         margin-right: 20px;
         margin-left: auto;
         top: 50%;
-        transform: translateX(50vw) translateX(-200%) translateY(-50%);
+        transform: translateX(50vw) translateX(-150%) translateY(-50%);
         cursor: pointer;
     }
 
@@ -37,7 +37,7 @@
         width: 100%;
         height: 2px;
         background-color: white;
-        transform: translateY(15px);
+        transform: translateY(25px);
         transition-duration: 0.5s;
         transition-timing-function: ease-in-out;
     }
@@ -45,17 +45,16 @@
     #hamburger .hamburger-label {
         font-family: Quicksand, sans-serif;
         display: inline-block;
-        font-size: 13px;
+        font-size: 16px;
         color: white;
-        transform: translateY(30px) translateY(-50%);
+        transform: translateY(50px) translateY(-50%);
     }
 
     .open-hamburger .hamburger-line-1 {
-        transform: translateY(10px) rotate(45deg) !important;
+        transform: translateY(13px) rotate(45deg) !important;
     }
     .open-hamburger .hamburger-line-2 {
-        width: 100% !important;
-        transform: translateY(10px) rotate(-45deg) !important;
+        transform: translateY(13px) rotate(-45deg) !important;
     }
 
     .nav-mobile {
