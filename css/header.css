@@ -102,7 +102,7 @@
     }
 
     .header {
-        height: 18ch;
+        height: 10vh;
     }
 }
 
@@ -137,7 +137,7 @@
     }
 
     .header {
-        height: 5ch;
+        height: 5vh;
     }
 
     svg.header-item {
