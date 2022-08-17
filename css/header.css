@@ -6,6 +6,10 @@
         transform: translateY(-50%);
     }
 
+    svg.header-item {
+        height: 80px;
+    }
+
     .nav-pc {
         display: none;
     }
@@ -15,8 +19,8 @@
         z-index: 999;
         display: inline-block;
         position: absolute;
-        width: 65px;
-        height: 65px;
+        width: 100px;
+        height: 100px;
         margin-right: 20px;
         margin-left: auto;
         top: 50%;
@@ -27,34 +31,38 @@
     #hamburger .hamburger-line-1 {
         display: block;
         width: 100%;
-        height: 2px;
+        height: 4px;
         background-color: white;
         transition-duration: 0.5s;
         transition-timing-function: ease-in-out;
+        transform: translateY(5px);
     }
     #hamburger .hamburger-line-2 {
         display: block;
         width: 100%;
-        height: 2px;
+        height: 4px;
         background-color: white;
-        transform: translateY(25px);
+        transform: translateY(40px);
         transition-duration: 0.5s;
         transition-timing-function: ease-in-out;
     }
 
     #hamburger .hamburger-label {
+        position: absolute;
         font-family: Quicksand, sans-serif;
         display: inline-block;
-        font-size: 16px;
+        font-size: 30px;
         color: white;
-        transform: translateY(50px) translateY(-50%);
+        left: 50%;
+        transform: translateY(90px) translateY(-50%) translateX(-50%);
+        white-space: nowrap;
     }
 
     .open-hamburger .hamburger-line-1 {
-        transform: translateY(13px) rotate(45deg) !important;
+        transform: translateY(20px) rotate(45deg) !important;
     }
     .open-hamburger .hamburger-line-2 {
-        transform: translateY(13px) rotate(-45deg) !important;
+        transform: translateY(20px) rotate(-45deg) !important;
     }
 
     .nav-mobile {
@@ -91,6 +99,10 @@
         display: block;
         padding: 20px 0;
     }
+
+    .header {
+        height: 18ch;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -122,12 +134,19 @@
         display: block;
         margin-left: 50px;
     }
+
+    .header {
+        height: 5ch;
+    }
+
+    svg.header-item {
+        height: 30px;
+    }
 }
 
 .header {
     z-index: 10;
     background-color: #333333;
-    height: 10ch;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -135,7 +154,6 @@
 
 svg.header-item {
     resize: none;
-    height: 40px;
 }
 
 a.header-item {
