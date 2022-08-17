@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 .hero {
     height: 100vh;
     width: 100%;
@@ -20,11 +22,24 @@
     top: 50%;
     transform: translateY(-50%) translateX(-50%);
     color: white;
-    font-family: Quicksand, sans-serif;
-    font-size: 80px;
     animation-name: hero-show-text;
     animation-timing-function: ease;
     animation-duration: 3s;
+}
+
+.hero-text h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 100px;
+    margin: 0;
+}
+.hero-text h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+    margin: 0;
+}
+.hero-text p {
+    margin: 10px;
+    font-size: 40px;
 }
 
 @keyframes hero-show-text {
