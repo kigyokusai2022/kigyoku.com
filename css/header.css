@@ -3,7 +3,12 @@
         position: absolute;
         display: inline-block;
         top: 50%;
-        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    svg.header-item {
+        height: 80px;
     }
 
     .nav-pc {
@@ -11,43 +16,54 @@
     }
 
     #hamburger {
-        position: relative;
-        display: block;
-        width: 30px;
-        height: 25px;
-        margin: 0 20px 0 auto;
-        top: 10px;
-    }
-
-    #hamburger span {
+        text-align: center;
+        z-index: 999;
+        display: inline-block;
         position: absolute;
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: auto;
         top: 50%;
-        left: 0;
-        display: block;
-        width: 70%;
-        height: 2px;
-        background: #fff;
-        transform: translateY(-50%);
+        transform: translateX(50vw) translateX(-150%) translateY(-50%);
+        cursor: pointer;
     }
 
-    #hamburger::before {
-        content: '';
+    #hamburger .hamburger-line-1 {
         display: block;
-        position: absolute;
-        left: 0;
         width: 100%;
-        height: 2px;
-        background-color: #fff;
+        height: 4px;
+        background-color: white;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        transform: translateY(5px);
+    }
+    #hamburger .hamburger-line-2 {
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        transform: translateY(40px);
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
     }
 
-    #hamburger::after {
-        content: 'MENU';
-        color: white;
-        font-size: 1px;
-        display: block;
+    #hamburger .hamburger-label {
         position: absolute;
-        top: 15px;
-        left: 0;
+        font-family: Quicksand, sans-serif;
+        display: inline-block;
+        font-size: 30px;
+        color: white;
+        left: 50%;
+        transform: translateY(90px) translateY(-50%) translateX(-50%);
+        white-space: nowrap;
+    }
+
+    .open-hamburger .hamburger-line-1 {
+        transform: translateY(20px) rotate(45deg) !important;
+    }
+    .open-hamburger .hamburger-line-2 {
+        transform: translateY(20px) rotate(-45deg) !important;
     }
 
     .nav-mobile {
@@ -57,10 +73,8 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        display: block;
         background: rgba(0,0,0,.8);
-        opacity: 0;
-        transform: translateY(-100%);
+        display: none;
     }
 
     .nav-mobile ul {
@@ -87,33 +101,8 @@
         padding: 20px 0;
     }
 
-    .nav-mobile .close {
-        position: relative;
-        padding-left: 20px;
-    }
-
-    .nav-mobile .close::before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: 0;
-        display: block;
-        width: 16px;
-        height: 1px;
-        background: #fff;
-        transform: rotate(45deg);
-    }
-
-    .nav-mobile .close::after {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: 0;
-        display: block;
-        width: 16px;
-        height: 1px;
-        background: #fff;
-        transform: rotate(-45deg);
+    .header {
+        height: 10vh;
     }
 }
 
@@ -125,7 +114,7 @@
     .nav-mobile {
         display: none;
     }
-    .hamburger {
+    #hamburger {
         display: none;
     }
 
@@ -146,12 +135,19 @@
         display: block;
         margin-left: 50px;
     }
+
+    .header {
+        height: 5vh;
+    }
+
+    svg.header-item {
+        height: 30px;
+    }
 }
 
 .header {
     z-index: 10;
     background-color: #333333;
-    height: 50px;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -159,7 +155,6 @@
 
 svg.header-item {
     resize: none;
-    height: 30px;
 }
 
 a.header-item {
@@ -169,14 +164,11 @@ a.header-item {
 }
 
 li.header-item {
+    font-family: Quicksand, sans-serif;
     list-style: none;
+    font-size: 50px;
 }
 li.header-item a {
     color: white;
     text-decoration: none;
-}
-
-.toggle {
-    transform: translateY(0);
-    opacity: 1;
 }
