@@ -29,16 +29,17 @@
 
 .hero-text h1 {
     font-family: 'Righteous', cursive;
-    font-size: 80px;
+    font-size: 100px;
     margin: 0;
 }
 .hero-text h2 {
     font-family: 'Righteous', cursive;
-    font-size: 50px;
+    font-size: 60px;
     margin: 0;
 }
 .hero-text p {
-
+    margin: 10px;
+    font-size: 40px;
 }
 
 @keyframes hero-show-text {
