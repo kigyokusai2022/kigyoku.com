@@ -11,11 +11,12 @@
     }
 
     #hamburger {
+        text-align: center;
         z-index: 999;
         display: inline-block;
         position: absolute;
-        width: 30px;
-        height: 25px;
+        width: 40px;
+        height: 40px;
         margin-right: 20px;
         margin-left: auto;
         top: 50%;
@@ -33,27 +34,27 @@
     }
     #hamburger .hamburger-line-2 {
         display: block;
-        width: 80%;
+        width: 100%;
         height: 2px;
         background-color: white;
-        transform: translateY(10px);
+        transform: translateY(15px);
         transition-duration: 0.5s;
         transition-timing-function: ease-in-out;
     }
 
     #hamburger .hamburger-label {
-        display: block;
-        font-size: 1px;
+        display: inline-block;
+        font-size: 13px;
         color: white;
-        transform: translateY(22px) translateY(-50%);
+        transform: translateY(30px) translateY(-50%);
     }
 
     .open-hamburger .hamburger-line-1 {
-        transform: rotate(45deg) !important;
+        transform: translateY(10px) rotate(45deg) !important;
     }
     .open-hamburger .hamburger-line-2 {
         width: 100% !important;
-        transform: rotate(-45deg) !important;
+        transform: translateY(10px) rotate(-45deg) !important;
     }
 
     .nav-mobile {
@@ -126,7 +127,7 @@
 .header {
     z-index: 10;
     background-color: #333333;
-    height: 7.5ch;
+    height: 10ch;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -134,7 +135,7 @@
 
 svg.header-item {
     resize: none;
-    height: 30px;
+    height: 40px;
 }
 
 a.header-item {
