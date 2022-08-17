@@ -43,6 +43,7 @@
     }
 
     #hamburger .hamburger-label {
+        font-family: Quicksand, sans-serif;
         display: inline-block;
         font-size: 13px;
         color: white;
@@ -145,6 +146,7 @@ a.header-item {
 }
 
 li.header-item {
+    font-family: Quicksand, sans-serif;
     list-style: none;
 }
 li.header-item a {
