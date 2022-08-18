@@ -3,6 +3,33 @@
 @import url('hero.css');
 
 body {
-    padding: 0;
     margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p, span {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p, span {
+        font-size: 16px;
+    }
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     #icon-mobile {
         position: absolute;
         display: inline-block;
@@ -8,7 +8,7 @@
     }
 
     svg.header-item {
-        height: 80px;
+        height: 60px;
     }
 
     .nav-pc {
@@ -20,8 +20,8 @@
         z-index: 999;
         display: inline-block;
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
         margin-right: 20px;
         margin-left: auto;
         top: 50%;
@@ -32,7 +32,7 @@
     #hamburger .hamburger-line-1 {
         display: block;
         width: 100%;
-        height: 4px;
+        height: 2px;
         background-color: white;
         transition-duration: 0.5s;
         transition-timing-function: ease-in-out;
@@ -41,9 +41,9 @@
     #hamburger .hamburger-line-2 {
         display: block;
         width: 100%;
-        height: 4px;
+        height: 2px;
         background-color: white;
-        transform: translateY(40px);
+        transform: translateY(30px);
         transition-duration: 0.5s;
         transition-timing-function: ease-in-out;
     }
@@ -52,10 +52,10 @@
         position: absolute;
         font-family: Quicksand, sans-serif;
         display: inline-block;
-        font-size: 30px;
+        font-size: 16px;
         color: white;
         left: 50%;
-        transform: translateY(90px) translateY(-50%) translateX(-50%);
+        transform: translateY(55px) translateY(-50%) translateX(-50%);
         white-space: nowrap;
     }
 
@@ -92,7 +92,6 @@
     }
 
     .nav-mobile li span {
-        font-size: 15px;
         color: #fff;
     }
 
@@ -102,11 +101,11 @@
     }
 
     .header {
-        height: 10vh;
+        height: 100px;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     #icon-mobile {
         display: none;
     }
@@ -137,7 +136,7 @@
     }
 
     .header {
-        height: 5vh;
+        height: 50px;
     }
 
     svg.header-item {
@@ -151,6 +150,8 @@
     width: 100%;
     text-align: center;
     position: fixed;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 
 svg.header-item {
@@ -160,13 +161,11 @@ svg.header-item {
 a.header-item {
     color: #dddddd;
     text-decoration: none;
-    font-size: 15px;
 }
 
 li.header-item {
     font-family: Quicksand, sans-serif;
     list-style: none;
-    font-size: 50px;
 }
 li.header-item a {
     color: white;
