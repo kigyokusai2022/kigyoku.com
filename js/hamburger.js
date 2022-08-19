@@ -1,17 +1,19 @@
 $(function () {
-    const hum = $('#hamburger');
-    const humLabel = $('#hamburger .hamburger-label')
+    const menuButton = $('#menu-button');
+    const menuHamburger = $('#menu-button .hamburger')
+    const label = $('#menu-button .menu-label')
     const nav = $('.nav-mobile');
-    hum.on('click', function() {
-        hum.toggleClass('open-hamburger');
-        switch(humLabel.text()) {
+    nav.hide()
+    menuButton.on('click', function() {
+        switch(label.text()) {
             case "メニュー":
-                humLabel.text("閉じる");
+                label.text("閉じる");
                 break;
             case "閉じる":
-                humLabel.text("メニュー");
+                label.text("メニュー");
                 break;
         }
+        menuHamburger.toggleClass("open-hamburger")
         nav.fadeToggle()
     });
 })
