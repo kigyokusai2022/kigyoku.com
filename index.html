@@ -10,8 +10,6 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBV4269H9Y"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
         function gtag() {
             dataLayer.push(arguments);
@@ -29,7 +27,7 @@
         crossorigin="anonymous"></script>
 
 <!--hamburgerのjs読み込み-->
-<script src="js/hamburger.js"></script>
+<script src="js/main.js"></script>
 
 <header class="header">
     <nav class="nav-pc">
@@ -104,12 +102,15 @@
 </header>
 
 <section class="hero" id="home">
-    <div class="hero-box">
-        <div class="hero-text">
-            <h1>KIGYOKUSAI2022</h1>
-            <h2>BEYOND THE LIMIT</h2>
-            <p>9/18(日) 9/19(月)<br> 東急目黒線不動前駅徒歩２分</p>
-        </div>
+    <div id="hero-images" class="hero-images">
+        <div class="hero-image" style="background-image: url('img/hero/poster.png')"></div>
+        <div class="hero-image" style="background-image: url('img/hero/school.jpg')"></div>
+        <div class="hero-dark-effect"></div>
+    </div>
+    <div class="hero-text">
+        <h1>KIGYOKUSAI2022</h1>
+        <h2>BEYOND THE LIMIT</h2>
+        <p>9/18(日) 9/19(月)<br> 東急目黒線不動前駅徒歩２分</p>
     </div>
 </section>
 
