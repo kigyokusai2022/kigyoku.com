@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('header.css');
 @import url('hero.css');
+@import url('access.css');
 @import url('hamburger.css');
 
 body {
@@ -8,12 +9,16 @@ body {
     padding: 0;
 }
 
+section {
+    text-align: center;
+}
+
 h1 {
-    font-size: clamp(30px,10vw,75px);
+    font-size: clamp(32px,10vw,50px);
 }
 
 h2 {
-    font-size: clamp(24px,8vw,60px);
+    font-size: clamp(24px,8vw,30px);
 }
 
 p, span {
