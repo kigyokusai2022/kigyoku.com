@@ -2,6 +2,7 @@
 @import url('header.css');
 @import url('hero.css');
 @import url('access.css');
+@import url('hamburger.css');
 
 body {
     margin: 0;
@@ -13,28 +14,13 @@ section {
 }
 
 h1 {
-    font-size: 72px;
+    font-size: clamp(30px,10vw,75px);
 }
 
 h2 {
-    font-size: 48px;
+    font-size: clamp(24px,8vw,60px);
 }
 
 p, span {
-    font-size: 32px;
-}
-
-@media screen and (max-width: 768px) {
-
-    h1 {
-        font-size: 36px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    p, span {
-        font-size: 16px;
-    }
+    font-size: 16px;
 }
