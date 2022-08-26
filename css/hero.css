@@ -1,51 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
 .hero {
-    height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-image: url("../img/hero.jpg");
-    text-align: center;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hero-box {
+.hero-images {
+    display: flex;
+    overflow-x: scroll;
+
+    /* ms-browser */
+    -ms-overflow-style: none;
+    /* firefox */
+    scrollbar-width: none;
+}
+
+/* chrome,safari */
+.hero-images::-webkit-scrollbar {
+    transition-duration: 0.5s;
+    display: none;
+}
+
+.hero-image {
+    min-width: 100vw;
+    height: 100vh;
+    resize: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-dark-effect {
+    position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .hero-text {
-    display: inline-block;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%) translateX(-50%);
     color: white;
-    animation-name: hero-show-text;
-    animation-timing-function: ease;
-    animation-duration: 3s;
-}
 
-.hero-text h1 {
-    font-family: 'Righteous', cursive;
-    margin: 0;
-}
-.hero-text h2 {
-    font-family: 'Righteous', cursive;
-    margin: 0;
-}
-.hero-text p {
-    margin: 10px;
-}
+    text-align: center;
 
-@keyframes hero-show-text {
-    0% {
-        transform: translateY(-100%) translateX(-50%);
-        opacity: 0
-    }
-    100% {
-        transform: translateY(-50%) translateX(-50%);
-        opacity: 1;
-    }
+    line-height: 2em;
 }
