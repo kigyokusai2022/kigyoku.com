@@ -28,7 +28,7 @@
         crossorigin="anonymous"></script>
 
 <!--hamburgerのjs読み込み-->
-<script src="js/hamburger.js"></script>
+<script src="js/main.js"></script>
 
 <header class="header">
     <nav class="nav-pc">
@@ -56,6 +56,7 @@
         </a></div>
         <div><a class="header-item" href="https://blog.kigyoku.com">ブログ</a></div>
         <div><a class="header-item" href="#access">アクセス</a></div>
+        <div><a class="header-item" href="#sales">物販</a></div>
         <div><a class="header-item" href="#contact">連絡先</a></div>
         <!--    <a class="header-item" href="#home">日程</a>-->
         <!--    <a class="header-item" href="#home">部門長紹介</a>-->
@@ -97,6 +98,7 @@
             <div><a href="#home">ホーム</a></div>
             <div><a href="https://blog.kigyoku.com">ブログ</a></div>
             <div><a href="#access">アクセス</a></div>
+            <div><a href="#sales">物販</a></div>
             <div><a href="#contact">連絡先</a></div>
             <!--      <li class="header-item"><a href="#home">日程</a></li>-->
             <!--      <li class="header-item"><a href="#home">部門長紹介</a></li>-->
@@ -105,12 +107,16 @@
 </header>
 
 <section class="hero" id="home">
-    <div class="hero-box">
-        <div class="hero-text">
-            <h1>KIGYOKUSAI2022</h1>
-            <h2>BEYOND THE LIMIT</h2>
-            <p>9/18(日) 9/19(月)<br> 東急目黒線不動前駅徒歩２分</p>
-        </div>
+    <div id="hero-images" class="hero-images">
+        <div class="hero-image" style="background-image: url('img/hero/poster.jpg')"></div>
+        <div class="hero-image" style="background-image: url('img/hero/school.jpg')"></div>
+        <div class="hero-dark-effect"></div>
+    </div>
+    <div class="hero-text">
+      <h1>KIGYOKUSAI2022</h1>
+      <h2>BEYOND THE LIMIT</h2>
+      <p>9/18(日) 9/19(月)<br> 東急目黒線不動前駅徒歩２分</p>
+      <small>※輝玉祭ご来場には事前の予約が必要です。詳しい情報は改めてご案内いたします。</small>
     </div>
 </section>
 
@@ -140,6 +146,11 @@
         駐車場・駐輪場はございません。ご来校の際は公共交通機関をご利用ください。
     </p>
 </section>
+<section id="sales">
+    <h1>物販</h1>
+    <p>ファイルセット（内容：ファイル2個）　２００円</p>
+    <p>トートバッグセット（内容：ファイル2個、トートバッグ1個、缶バッチ1個）　５００円</p>
+</section>
 <section id="contact">
     <h1>連絡先</h1>
     <a href="mailto:info@kigyoku.com"><img class="contact-element" src="img/mail.svg" alt="メールのアイコン">info@kigyoku.com</a>
@@ -147,5 +158,4 @@
     <a href="https://www.instagram.com/kigyokusai/"><img class="contact-element" src="img/instagram.svg" alt="インスタグラムのアイコン">@kigyokusai</a>
 </section>
 </body>
-
 </html>
