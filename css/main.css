@@ -15,11 +15,11 @@ section {
 }
 
 h1 {
-    font-size: clamp(32px,10vw,50px);
+    font-size: clamp(24px,10vw,50px);
 }
 
 h2 {
-    font-size: clamp(24px,8vw,30px);
+    font-size: clamp(20px,8vw,30px);
 }
 
 p, span {
