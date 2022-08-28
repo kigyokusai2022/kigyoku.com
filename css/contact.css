@@ -1,6 +1,7 @@
 .contact-element {
     width: min(32px);
     height: auto;
+    text-align: center;
     
     aspect-ratio: 4/3;
 }
