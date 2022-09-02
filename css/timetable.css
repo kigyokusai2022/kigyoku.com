@@ -1,3 +1,7 @@
+:root {
+    font-family: vdl-v7marugothic, sans-serif;
+}
+
 .livehouse {
     border-color: hotpink;
     transition-duration: 0.5s;

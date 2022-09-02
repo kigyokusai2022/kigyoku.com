@@ -1,0 +1,73 @@
+@import "timetable.css";
+
+:root {
+    font-family: vdl-v7marugothic, sans-serif;
+}
+
+.exhibits {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, min(500px, 70vw));
+    grid-gap: 50px;
+}
+
+.exhibit {
+    width: min(500px, 70vw);
+    height: 200px;
+    color: white;
+    border-radius: 10px 10px 50px 10px;
+    padding: 10px;
+    transition-duration: 5s;
+}
+
+.exhibit p {
+    margin: 0;
+}
+
+.exhibit-room {
+    text-align: right;
+    font-size: 12px;
+}
+
+.exhibit-team-name {
+    text-align: left;
+    font-size: 12px;
+    line-height: 0;
+}
+
+.exhibit-name {
+    text-align: left;
+    font-size: 24px;
+}
+
+.exhibit-description {
+    text-align: left;
+    font-size: 16px;
+}
+
+.orange {
+
+    background-color: orange;
+}
+
+.orange:hover {
+    background-color: orangered;
+}
+
+.pink {
+
+    background-color: hotpink;
+}
+
+.pink:hover {
+    background-color: deeppink;
+}
+
+.green {
+
+    background-color: forestgreen;
+}
+
+.green:hover {
+    background-color: darkgreen;
+}
