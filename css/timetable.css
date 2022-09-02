@@ -1,0 +1,142 @@
+:root {
+    font-family: vdl-v7marugothic, sans-serif;
+}
+
+.livehouse {
+    border-color: hotpink;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.livehouse:hover {
+    background-color: hotpink;
+    color: white;
+}
+
+.gym {
+    border-color: orange;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.gym:hover {
+    background-color: orange;
+    color: white;
+}
+
+.ground {
+    border-color: deepskyblue;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.ground:hover {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.timetable {
+    display: flex;
+    justify-content: center;
+    font-family: vdl-v7marugothic, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.timetable-times {
+    margin-top: 50px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-rows: repeat(7, 6em);
+}
+
+.timetable-a-day {
+    display: flex;
+    justify-content: center;
+}
+
+.timetable-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.timetable-category-title {
+    color: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px darkgray;
+}
+
+.timetable-elements {
+    margin-top: 10px;
+}
+
+.timetable-element {
+    position: relative;
+    text-align: left;
+
+    box-shadow: 0 0 10px darkgray;
+
+    background-color: white;
+
+    border-style: solid;
+    border-width: 1px 1px 1px 5px;
+    border-radius: 5px;
+
+    padding: 0 5px;
+}
+
+.timetable-time {
+    font-size: 10px;
+}
+
+.timetable-element p {
+    margin: auto;
+}
+
+.turn-screen-direction {
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    .livehouse {
+        background-color: hotpink;
+    }
+
+    .gym {
+        background-color: orange;
+    }
+
+    .ground {
+        background-color: deepskyblue;
+    }
+
+    .timetable-element p {
+        display: none;
+    }
+
+    .timetable-time {
+        color: white;
+        text-align: center;
+    }
+
+    .timetable-element {
+        width: 35px;
+    }
+
+    .timetable-category-title {
+        width: 50px !important;
+        height: 100px !important;
+    }
+
+    .timetable-times {
+        margin-top: 110px;
+    }
+
+    .turn-screen-direction {
+        display: inline !important;
+    }
+}
