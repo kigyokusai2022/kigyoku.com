@@ -1,5 +1,13 @@
 .register {
-    position:center;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+.register p{
+    display: inline-block;
+    text-align: left;
 }
 
 .button003 a {
