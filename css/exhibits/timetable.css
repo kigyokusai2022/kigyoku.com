@@ -115,11 +115,12 @@
     }
 
     .timetable-time {
-        display: none;
+        color: white;
+        text-align: center;
     }
 
     .timetable-element {
-        width: 30px;
+        width: 35px;
     }
 
     .timetable-category-title {
