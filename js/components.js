@@ -28,6 +28,7 @@ function header() {
         <div><a class="header-item" href="timetable.html">タイムテーブル</a></div>
         <div><a class="header-item" href="exhibits.html">参加団体一覧</a></div>
         <div><a class="header-item" href="pamphlet.html">パンフレット</a></div>
+        <div><a class="header-item" href="reserve.html">ご予約の案内</a></div>
         <!--    <a class="header-item" href="#home">日程</a>-->
         <!--    <a class="header-item" href="#home">部門長紹介</a>-->
     </nav>
@@ -71,6 +72,7 @@ function header() {
             <div><a href="timetable.html">タイムテーブル</a></div>
             <div><a href="exhibits.html">参加団体一覧</a></div>
             <div><a href="pamphlet.html">パンフレット</a></div>
+            <div><a href="reserve.html">ご予約の案内</a></div>
             <!--      <li class="header-item"><a href="#home">日程</a></li>-->
             <!--      <li class="header-item"><a href="#home">部門長紹介</a></li>-->
         </div>
