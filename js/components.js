@@ -25,6 +25,8 @@ function header() {
         </a></div>
         <div><a class="header-item" href="https://blog.kigyoku.com">ブログ</a></div>
         <div><a class="header-item" href="index.html#access">アクセス</a></div>
+        <div><a class="header-item" href="exhibits.html">参加団体一覧</a></div>
+        <div><a class="header-item" href="pamphlet.html">パンフレット</a></div>
         <!--    <a class="header-item" href="#home">日程</a>-->
         <!--    <a class="header-item" href="#home">部門長紹介</a>-->
     </nav>
@@ -65,6 +67,8 @@ function header() {
             <div><a href="index.html#home">ホーム</a></div>
             <div><a href="https://blog.kigyoku.com">ブログ</a></div>
             <div><a href="index.html#access">アクセス</a></div>
+            <div><a href="exhibits.html">参加団体一覧</a></div>
+            <div><a href="pamphlet.html">パンフレット</a></div>
             <!--      <li class="header-item"><a href="#home">日程</a></li>-->
             <!--      <li class="header-item"><a href="#home">部門長紹介</a></li>-->
         </div>

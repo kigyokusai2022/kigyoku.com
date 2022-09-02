@@ -1,0 +1,11 @@
+.pamphlets {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pamphlets img {
+    width: min(1500px,90vw);
+    height: auto;
+    margin: 20px;
+}
