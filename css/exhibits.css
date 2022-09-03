@@ -5,6 +5,7 @@
 }
 
 .exhibits {
+    margin: 100px;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, min(500px, 70vw));
@@ -13,7 +14,7 @@
 
 .exhibit {
     width: min(500px, 70vw);
-    height: 200px;
+    height: min(200px, auto);
     color: white;
     border-radius: 10px 10px 50px 10px;
     padding: 10px;
@@ -46,28 +47,14 @@
 }
 
 .orange {
-
-    background-color: orange;
-}
-
-.orange:hover {
     background-color: orangered;
 }
 
 .pink {
-
-    background-color: hotpink;
-}
-
-.pink:hover {
     background-color: deeppink;
 }
 
 .green {
 
-    background-color: forestgreen;
-}
-
-.green:hover {
     background-color: darkgreen;
 }
