@@ -28,7 +28,7 @@ p, span {
 }
 
 .youtube {
-    width: 90%;
+    width: 100%;
     aspect-ratio: 16 / 9;
   }
   .youtube iframe {
