@@ -26,3 +26,12 @@ h2 {
 p, span {
     font-size: 16px;
 }
+
+.youtube {
+    width: 90%;
+    aspect-ratio: 16 / 9;
+  }
+  .youtube iframe {
+    width: 90%;
+    height: 90%;
+  }
