@@ -50,6 +50,10 @@
     background-color: orangered;
 }
 
+.orange-pink {
+    background: linear-gradient(150deg,orangered 50%, deeppink 50%);
+}
+
 .pink {
     background-color: deeppink;
 }
