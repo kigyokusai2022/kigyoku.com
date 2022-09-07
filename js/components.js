@@ -29,7 +29,7 @@ function header() {
         <div><a class="header-item" href="exhibits.html">参加団体一覧</a></div>
         <div><a class="header-item" href="pamphlet.html">パンフレット</a></div>
         <div><a class="header-item" href="reserve.html">ご予約の案内</a></div>
-        <div><a class="header-item" href="preserve.html">物販情報</a></div>
+        <div><a class="header-item" href="products.html">物販情報</a></div>
         <!--    <a class="header-item" href="#home">日程</a>-->
         <!--    <a class="header-item" href="#home">部門長紹介</a>-->
     </nav>

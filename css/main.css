@@ -35,3 +35,12 @@ p, span {
     width: 90%;
     height: 90%;
   }
+
+.youtube {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+.youtube iframe {
+    width: 70%;
+    height: 70%;
+}
