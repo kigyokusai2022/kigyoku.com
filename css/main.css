@@ -36,11 +36,11 @@ p, span {
     height: 90%;
   }
 
-.youtube {
+.youtube-mini {
     width: 100%;
     aspect-ratio: 16 / 9;
 }
-.youtube iframe {
+.youtube-mini iframe {
     width: 70%;
     height: 70%;
 }
