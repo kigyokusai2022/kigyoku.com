@@ -13,6 +13,8 @@ body {
 section {
     text-align: center;
     padding-top: 50px;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 h1 {
