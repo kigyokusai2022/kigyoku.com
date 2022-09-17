@@ -25,6 +25,10 @@ h2 {
     font-size: clamp(24px,8vw,30px);
 }
 
+ul {
+    text-align: left;
+}
+
 p, span {
     font-size: 16px;
 }
