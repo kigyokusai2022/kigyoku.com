@@ -13,6 +13,8 @@ body {
 section {
     text-align: center;
     padding-top: 50px;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 h1 {
@@ -21,6 +23,10 @@ h1 {
 
 h2 {
     font-size: clamp(24px,8vw,30px);
+}
+
+ul {
+    text-align: left;
 }
 
 p, span {
