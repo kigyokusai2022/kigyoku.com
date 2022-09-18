@@ -21,6 +21,9 @@
 }
 
 .hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     min-width: 100vw;
     height: 100vh;
     resize: none;
@@ -31,6 +34,8 @@
 
 .hero-dark-effect {
     position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
@@ -40,7 +45,17 @@
     position: absolute;
     color: white;
 
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
     text-align: center;
 
     line-height: 2em;
+}
+
+.hero-links {
+    position: absolute;
+
+    display: flex;
 }
