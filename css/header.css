@@ -8,6 +8,10 @@
 
 /* スマホ表示 */
 @media screen and (max-width: 1000px) {
+    :root {
+        --header-height: var(--mobile-header-height);
+    }
+
     .nav-pc {
         display: none;
     }
@@ -78,6 +82,10 @@
 
 /* PC表示 */
 @media screen and (min-width: 1000px) {
+    :root {
+        --header-height: var(--pc-header-height);
+    }
+
     .nav-mobile, .nav-mobile-inner, #menu-button, #icon-mobile {
         display: none;
     }
