@@ -18,12 +18,12 @@
 .hero-images::-webkit-scrollbar {
     transition-duration: 0.5s;
     display: none;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
     min-width: 100vw;
     height: 100vh;
     resize: none;
